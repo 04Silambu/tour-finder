@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamil Nadu District Selector</title>
+</head>
+<body> <center><h1>
+   🧭ALL TAMILNADU DISTRICT
+</h1>
+       <H2>Visiting Places </H2>
+    <input list="districts" id="districtInput" placeholder="Select Your District....." onchange="goToSite(this.value)" />
+    <datalist id="districts">
+        <option value="Ariyalur">
+        <option value="Chengalpattu">
+        <option value="Chennai">
+        <option value="Coimbatore">
+        <option value="Cuddalore">
+        <option value="Dharmapuri">
+        <option value="Dindigul">
+        <option value="Erode">
+        <option value="Kallakurichi">
+        <option value="Kanchipuram">
+        <option value="Kanyakumari">
+        <option value="Karur">
+        <option value="Krishnagiri">
+        <option value="Madurai">
+        <option value="Mayiladuthurai">
+        <option value="Nagapattinam">
+        <option value="Namakkal">
+        <option value="Perambalur">
+        <option value="Pudukkottai">
+        <option value="Ramanathapuram">
+        <option value="Ranipet">
+        <option value="Salem">
+        <option value="Sivaganga">
+        <option value="Tenkasi">
+        <option value="Thanjavur">
+        <option value="Theni">
+        <option value="Thiruvallur">
+        <option value="Thiruvannamalai">
+        <option value="Thiruvarur">
+        <option value="Thoothukudi">
+        <option value="Tiruchirappalli">
+        <option value="Tirunelveli">
+        <option value="Tirupathur">
+        <option value="Tiruppur">
+        <option value="Vellore">
+        <option value="Viluppuram">
+        <option value="Virudhunagar">
+    </datalist>
+
+    <script>
+        function goToSite(district) {
+            const links = {
+                'Ariyalur': 'https://ariyalur.nic.in/',
+                'Chengalpattu': 'https://chengalpattu.nic.in/',
+                'Chennai': 'https://chennai.nic.in/',
+                'Coimbatore': 'https://coimbatore.nic.in/',
+                'Cuddalore': 'https://cuddalore.nic.in/',
+                'Dharmapuri': 'https://dharmapuri.nic.in/',
+                'Dindigul': 'https://dindigul.nic.in/',
+                'Erode': 'https://erode.nic.in/',
+                'Kallakurichi': 'https://kallakurichi.nic.in/',
+                'Kanchipuram': 'https://kancheepuram.nic.in/',
+                'Kanyakumari': 'https://kanniyakumari.nic.in/',
+                'Karur': 'https://karur.nic.in/',
+                'Krishnagiri': 'https://krishnagiri.nic.in/',
+                'Madurai': 'https://madurai.nic.in/',
+                'Mayiladuthurai': 'https://mayiladuthurai.nic.in/',
+                'Nagapattinam': 'https://nagapattinam.nic.in/',
+                'Namakkal': 'https://namakkal.nic.in/',
+                'Perambalur': 'https://perambalur.nic.in/',
+                'Pudukkottai': 'https://pudukkottai.nic.in/',
+                'Ramanathapuram': 'https://ramanathapuram.nic.in/',
+                'Ranipet': 'https://ranipet.nic.in/',
+                'Salem': 'https://salem.nic.in/',
+                'Sivaganga': 'https://sivaganga.nic.in/',
+                'Tenkasi': 'https://tenkasi.nic.in/',
+                'Thanjavur': 'https://thanjavur.nic.in/',
+                'Theni': 'https://theni.nic.in/',
+                'Thiruvallur': 'https://tiruvallur.nic.in/',
+                'Thiruvannamalai': 'https://tiruvannamalai.nic.in/',
+                'Thiruvarur': 'https://tiruvarur.nic.in/',
+                'Thoothukudi': 'https://thoothukudi.nic.in/',
+                'Tiruchirappalli': 'https://tiruchirappalli.nic.in/',
+                'Tirunelveli': 'https://tirunelveli.nic.in/',
+                'Tirupathur': 'https://tirupathur.nic.in/',
+                'Tiruppur': 'https://tiruppur.nic.in/',
+                'Vellore': 'https://vellore.nic.in/',
+                'Viluppuram': 'https://viluppuram.nic.in/',
+                'Virudhunagar': 'https://virudhunagar.nic.in/'
+            };
+            if (links[district]) {
+                window.location.href = links[district];
+            }
+        }
+    </script>
+    </center>
+</body>
+</html>
+
+x
